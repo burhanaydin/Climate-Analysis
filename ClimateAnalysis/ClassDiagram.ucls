@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="JPEG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="LSTM.IAgent" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/LSTM/IAgent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="89" width="102" x="3919" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="climateAnalysis.CustomFileInputFormat" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/climateAnalysis/CustomFileInputFormat.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="107" width="327" x="529" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="climateAnalysis.ClimateAnalysisDriver.MarksimClimateReducerOriginal" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="89" width="194" x="295" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="LSTM.IdentityNeuron" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/LSTM/IdentityNeuron.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="107" width="113" x="3755" y="483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="5" language="java" name="LSTM.NeuronType" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/LSTM/NeuronType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="125" width="100" x="4214" y="483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="6" language="java" name="LSTM.EmbeddedReberGrammar.State" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/LSTM/EmbeddedReberGrammar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="71" width="87" x="4419" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="climateAnalysis.DataPool" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/climateAnalysis/DataPool.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="251" width="202" x="1539" y="483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="climateAnalysis.ClimateAnalysisDriver.MarksimClimateMapperOriginal" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="89" width="167" x="896" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="climateAnalysis.ClimateAnalysisDriver.EtaClimateReducer" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="457" width="396" x="1103" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="climateAnalysis.ClimateAnalysisDriver.PrecisAndesClimateReducer" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="479" width="396" x="1539" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="11" language="java" name="climateAnalysis.ClimateAnalysisDriver.PrecisAndesDirPathsEnum" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="2699" width="279" x="3001" y="483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" language="java" name="climateAnalysis.ClimateAnalysisDriver" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="359" width="218" x="2645" y="-705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="13" language="java" name="climateAnalysis.ClimateAnalysisDriver.MarksimDirPathsEnum" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="197" width="395" x="3320" y="483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="14" language="java" name="LSTM.TanhNeuron" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/LSTM/TanhNeuron.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="107" width="113" x="3908" y="483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="climateAnalysis.ClimateAnalysisDriver.EtaClimateReducerOriginal" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="89" width="194" x="2411" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="climateAnalysis.ClimateAnalysisDriver.PrecisAndesClimateReducerOriginal" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="89" width="194" x="2645" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="climateAnalysis.ClimateAnalysisDriver.EtaClimateMapperOriginal" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="89" width="152" x="2900" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="LSTM.EmbeddedReberGrammar.Transition" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/LSTM/EmbeddedReberGrammar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="107" width="84" x="4527" y="483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="LSTM.LSTM" project="ClimateAnalysis" file="/ClimateAnalysis/src/LSTM/LSTM.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="629" width="145" x="4061" y="-705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="climateAnalysis.ClimateAnalysisDriver.MarksimClimateReducer" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="457" width="396" x="1975" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="climateAnalysis.ClimateAnalysisDriver.PrecisAndesClimateMapperOriginal" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="89" width="186" x="3092" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="22" language="java" name="LSTM.IAgentSupervised" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/LSTM/IAgentSupervised.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="107" width="130" x="4249" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="23" language="java" name="LSTM.SigmoidNeuron" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/LSTM/SigmoidNeuron.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="107" width="113" x="4061" y="483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="24" language="java" name="climateAnalysis.ClimateAnalysisDriver.EtaDirPathsEnum" 
+    project="ClimateAnalysis" file="/ClimateAnalysis/src/climateAnalysis/ClimateAnalysisDriver.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="395" width="266" x="2695" y="483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="25" language="java" name="LSTM.Neuron" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/LSTM/Neuron.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="125" width="127" x="4061" y="-36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="climateAnalysis.MyCustomLineRecordReader" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/climateAnalysis/MyCustomLineRecordReader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="397" width="177" x="529" y="483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="LSTM.EmbeddedReberGrammar" project="ClimateAnalysis" 
+    file="/ClimateAnalysis/src/LSTM/EmbeddedReberGrammar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="449" width="207" x="4419" y="-705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="29">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="30" name="neuronInputGate"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="33" name="dataPool"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="35">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <nesting id="36">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <association id="37">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="38" name="dataPool"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <nesting id="41">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <nesting id="43">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="10"/>  
+  </nesting>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="45">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="46" name="neuronCECSquash"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="49" name="neuronOutputGate"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <nesting id="52">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <association id="53">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="54" name="finalDataPool"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="57" name="dataPoolArray"/>      
+      <multiplicity id="58" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="60" name="states"/>      
+      <multiplicity id="61" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="62">    
+    <bendpoint x="3308" y="-36"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </nesting>  
+  <realization id="63">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <association id="64">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="65" name="transitions"/>      
+      <multiplicity id="66" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="67">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <realization id="68">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <nesting id="69">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <nesting id="70">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="20"/>  
+  </nesting>  
+  <nesting id="71">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="21"/>  
+  </nesting>  
+  <nesting id="72">    
+    <bendpoint x="4536" y="-36"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <dependency id="73">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="74">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <nesting id="75">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <generalization id="76">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <nesting id="77">    
+    <bendpoint x="2869" y="-36"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="24"/>  
+  </nesting>  
+  <dependency id="78">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <association id="79">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="80" name="neuronForgetGate"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="83" name="neuronNetInput"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="86" name="dataPoolArray"/>      
+      <multiplicity id="87" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="89" name="finalDataPool"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="91">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="16"/>  
+  </nesting>  
+  <dependency id="92">    
+    <bendpoint x="4218" y="-36"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="93">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="94" name="dataPoolArray"/>      
+      <multiplicity id="95" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="96">    
+    <bendpoint x="3329" y="-36"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="13"/>  
+  </nesting>  
+  <association id="97">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="98" name="dataPool"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="100">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="101" name="finalDataPool"/>      
+      <multiplicity id="102" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
