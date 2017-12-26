@@ -12,7 +12,7 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 
 
 public class CustomFileInputFormat extends TextInputFormat{
-	 
+
 	public RecordReader<LongWritable, Text> myCustomLineRecordReader;
 	@Override
     public RecordReader<LongWritable, Text> createRecordReader(InputSplit split, TaskAttemptContext context) {
