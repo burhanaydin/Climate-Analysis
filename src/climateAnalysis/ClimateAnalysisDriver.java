@@ -436,6 +436,7 @@ public class ClimateAnalysisDriver extends Configured implements Tool {
 						    LSTM[] lstmLayers = new LSTM[4];
 						    lstmLayers[0] = lstmHiddenLayer_1;    lstmLayers[1] = lstmHiddenLayer_2;   lstmLayers[2] = lstmHiddenLayer_3;   lstmLayers[3] = lstmHiddenLayer_4;
 						    dataPoolArray.get(1).toString();
+						    System.out.println("aa");
 						    for(DataPool dP : dataPoolArray){
 						    	for (int j = 0; j < dP.nrows ; j++){
 						    		for (int k = 0; k < dP.ncols ; k++){
